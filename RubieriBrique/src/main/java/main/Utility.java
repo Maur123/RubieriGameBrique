@@ -8,12 +8,6 @@ public class Utility {
 	public static Rectangle sommaRect(Rectangle a, Rectangle b) {
 		return new Rectangle(a.x+b.x,a.y+b.y,a.width+b.width,a.height+b.height);
 	}
-
-	/*
-		@par the position i to check
-		@return true if the position i is valid, false otherwise
-	 */
-
 	/*
 		Restituisce true se la posizione è valida, false altrimenti
 	 */

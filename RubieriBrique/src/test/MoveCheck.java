@@ -3,7 +3,6 @@ package test;
 import main.java.main.Brique;
 
 import java.io.*;
-import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 

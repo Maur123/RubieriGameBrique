@@ -44,7 +44,6 @@ public class WinningStateTest{
 
         Brique b = new Brique();
         //all'inizio non c'è alcun giocatore vincente
-        //assertEquals(0,b.vincitore());
 
         String line = "";
         int ntest=0;
