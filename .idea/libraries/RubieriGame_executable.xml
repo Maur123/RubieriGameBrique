@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RubieriGame-executable">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RubieriBrique/build/libs/RubieriGame-executable.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

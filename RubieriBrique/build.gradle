@@ -1,0 +1,28 @@
+plugins {
+    id "java"
+    id "com.github.johnrengelman.shadow" version "8.1.1"
+}
+
+jar {
+    manifest {
+        attributes (
+                "Main-Class": "main.java.main.Brique"
+        )
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "lib", include: ["*.jar"])
+}
+
+shadowJar {
+    archiveFileName = "RubieriGame-executable.jar" // nome del jar eseguibile prodotto da shadowJar
+
+    from("src/main/resources") {
+        include "**" // includi nel jar tutti i file della cartella "resources"
+    }
+}
+
+test {
+    useJUnit()
+}
